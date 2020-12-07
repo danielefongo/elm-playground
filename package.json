@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"webpack --watch --mode=development\" \"nodemon index.js\"",
-    "prod": "webpack --mode=production"
+    "start": "concurrently \"webpack --watch --mode=development\" \"nodemon index.js\""
   },
   "keywords": [],
   "author": "",
