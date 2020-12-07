@@ -1,5 +1,3 @@
-const test = () => {
-  console.log('test');
-};
+import { Elm } from './Clock'
 
-test();
+Elm.Clock.init({node: document.getElementById("clock")});
