@@ -1,3 +1,3 @@
-import { Elm } from './Clock'
+import { Elm } from './Counter'
 
-Elm.Clock.init({node: document.getElementById("clock")});
+Elm.Counter.init({node: document.getElementById("clock")});
